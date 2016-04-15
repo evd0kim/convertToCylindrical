@@ -1,0 +1,15 @@
+EXE_INC = \
+    -I$(LIB_SRC)/finiteVolume/lnInclude \
+    -I$(LIB_SRC)/randomProcesses/lnInclude \
+    -I$(LIB_SRC)/sampling/lnInclude \
+    -I$(LIB_SRC)/meshTools/coordinateSystems/coordinateRotation \
+    -I$(LIB_SRC)/meshTools/coordinateSystems \
+    -I$(LIB_SRC)/meshTools/lnInclude
+
+EXE_LIBS = \
+    -lgenericPatchFields \
+    -lfoamCalcFunctions \
+    -lfiniteVolume \
+    -lrandomProcesses \
+    -lsampling \
+    -lmeshTools
